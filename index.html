@@ -4,14 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pet Shop</title>
-        
-    <!-- font awesome cdn -->
-    <script src="https://kit.fontawesome.com/189cc58fe0.js" crossorigin="anonymous"></script>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=ADLaM+Display&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=ADLaM+Display&family=Sora:wght@100..800&display=swap" rel="stylesheet">
+        
+    <!-- font awesome cdn -->
+    
 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/189cc58fe0.js" crossorigin="anonymous"></script>
   <!-- Daisy UI cdn -->
   <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css" rel="stylesheet" type="text/css" />
     <!-- tailwind css cdn -->
@@ -43,6 +45,9 @@
                 <div class=" ">
                 <img class="gap-2  " src="images/logo-header.png" alt="">
                 <p class="text-2xl font-sora ">Brower<span class="text-[#FFDC26] font-sora ">4</span>Pets</p>
+                <div class=" flex  ml-64 lg:hidden md:hidden">
+                    <i class="fa fa-align-justify" ></i>
+                </div>
                 </div>
                 <div class="flex-none hidden md:flex gap-4 text-xl">
                     <a class=" hover:text--600 flex items-center gap-1" href="#">Find a pet </a>
@@ -51,19 +56,20 @@
                     
                 </div>
                 <div class=" lg:flex lg:justify-center lg:gap-2 md:flex md:justify-center md:gap-2 hidden ">
-                    <button class="btn"><i class="fa-light fa-magnifying-glass" ></i></i></button>
-                    <a class="btn" href=""><i class="fa-light fa-bell" style="color: #000000;"></i></a>
+                    <a href=""><i style='font-size:24px' class='fas'>&#xf002;</i></a>
+                    <a href=""><i style='font-size:24px' class='far'>&#xf0f3;</i></a>
                     <button class="  btn btn-outline btn-warning px-10 py-2   rounded-lg" href="">Login</button>
                     <a class="px-8 py-2 primary-color  hover:bg-yellow-200 rounded-lg" href="#">Register</a>
+                    
                 </div>
                 
             </nav>
         </div>
         <!-- hero section -->
         <section class="w-11/12 mx-auto">
-            <div class="lg:relative "> 
+            <div class="lg:relative  "> 
                 <img class="" src="images/cat-big.png" alt="">
-                <div class="lg:absolute space-y-5  top-3 mt-12 ">
+                <div class="lg:absolute space-y-5  top-3 mt-12 transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110 ">
                     <h1 class="font-adlam text-5xl  ">Pamper Your Pet,<br> Because They Deserve <br>the Bes</h1>
                     <p class="font-sora text-gray-400 leading-2"> Discover a world of treats, toys, and essentials handpicked for <br> your furry friends. Shop now and make tails wag with joy!</p>
                     <button class=" font-sora px-8 py-2 primary-color rounded-lg hover:bg-yellow-200 ">Find a pet</button>
@@ -162,7 +168,7 @@
                              <img class="bg-[#FFF9F4] p-3" src="images/dog-cartoon.png" alt="">
                          </div>
                          <div class="font-sora  ">
-                             <h2>4.5</h2>
+                             <h2> <i style="font-size:15px " class="fa text-yellow-500">&#xf006;</i> 4.5</h2>
                              <p class="text-xl font-semibold ">Pet Bed</p>
                              <p>$39.99</p>
                              </div>
@@ -176,7 +182,7 @@
                             <div class="font-sora  ">
                                 <h2>4.5</h2>
                                 <p class="text-xl font-semibold ">Pet Bed</p>
-                                <p>$39.99</p>
+                                <p><i style="font-size:15px " class="fa text-yellow-500">&#xf006;</i> $39.99</p>
                                 </div>
     
                          </div>
@@ -188,7 +194,7 @@
                             <div class="font-sora  ">
                                 <h2>4.5</h2>
                                 <p class="text-xl font-semibold ">Pet Bed</p>
-                                <p>$39.99</p>
+                                <p><i style="font-size:15px " class="fa text-yellow-500">&#xf006;</i> $39.99</p>
                                 </div>
     
                        </div>
@@ -200,7 +206,7 @@
                         <div class="font-sora  ">
                             <h2>4.5</h2>
                             <p class="text-xl font-semibold ">Pet Bed</p>
-                            <p>$39.99</p>
+                            <p><i style="font-size:15px " class="fa text-yellow-500">&#xf006;</i> $39.99</p>
                             </div>
 
                         </div>
@@ -212,7 +218,7 @@
                             <div class="font-sora  ">
                                 <h2>4.5</h2>
                                 <p class="text-xl font-semibold ">Pet Bed</p>
-                                <p>$39.99</p>
+                                <p><i style="font-size:15px " class="fa text-yellow-500">&#xf006;</i> $39.99</p>
                                 </div>
     
                         </div>
@@ -225,7 +231,7 @@
                                 <div class="font-sora  ">
                                     <h2>4.5</h2>
                                     <p class="text-xl font-semibold ">Pet Bed</p>
-                                    <p>$39.99</p>
+                                    <p><i style="font-size:15px " class="fa text-yellow-500">&#xf006;</i> $39.99</p>
                                     </div>
         
                          </div>
@@ -237,7 +243,7 @@
                                     <div class="font-sora  ">
                                         <h2>4.5</h2>
                                         <p class="text-xl font-semibold ">Pet Bed</p>
-                                        <p>$39.99</p>
+                                        <p><i style="font-size:15px " class="fa text-yellow-500">&#xf006;</i> $39.99</p>
                                         </div>
             
                             </div>
@@ -249,7 +255,7 @@
                                         <div class="font-sora  ">
                                             <h2>4.5</h2>
                                             <p class="text-xl font-semibold ">Pet Bed</p>
-                                            <p>$39.99</p>
+                                            <p><i style="font-size:15px " class="fa text-yellow-500">&#xf006;</i> $39.99</p>
                                             </div>
                 
                           </div>
@@ -261,7 +267,7 @@
                                             <div class="font-sora  ">
                                                 <h2>4.5</h2>
                                                 <p class="text-xl font-semibold ">Pet Bed</p>
-                                                <p>$39.99</p>
+                                                <p><i style="font-size:15px " class="fa text-yellow-500">&#xf006;</i> $39.99</p>
                                                 </div>
                     
                           </div>
@@ -277,12 +283,12 @@
 
         <section class="w-11/12 mx-auto">
             <h1 class ="font-adlam text-4xl pt-16 "> Everyday low Price</h1>
-            <div class=" grid grid-cols-1 lg:grid-cols-3 gap-5  py-11 ">
+            <div class=" grid grid-cols-1 lg:grid-cols-3 gap-5  py-6 ">
                 <div class="lg:col-span-2  bg-gradient-to-tl from-[rgb(172,210,253)] to-[rgb(248,204,251)] md:flex items-center rounded-lg   justify-around mb-3 lg:h-[480px] ">
                     <div class="  pl-16 pt-16">
                         <p class=" lg:font-sora ">Under Price</p>
                         <h1 class="font-adlam text-2xl">Pet Grooming Mit</h1>
-                        <p class="font-adlam text-white">(Easy Hair Removal)</p>
+                        <p class="font-adlam  text-white ">(Easy Hair Removal)</p>
                         <p class="font-adlam text-5xl pt-5">$7.99</p>
                     </div>
                     <div>
@@ -310,8 +316,8 @@
         </section>
     </main>`
 
-    <section class="  mt-24 ">
-        <div class="bg-[#FFF9F4] translate-y-36  lg:pb-10 lg:px-28 lg:mx-32 mx-2 pb-4
+    <section class="  mt-16 ">
+        <div class="bg-[#FFF9F4] lg:translate-y-36 md:translate-y-36 translate-y-40 lg:pb-10 lg:px-28 lg:mx-32 mx-5 pb-4
          rounded-lg ">
             <div class="  grid lg:grid-cols-3 md:grid-cols-2  items-center mx-10 mb-2 ">
                 <div>
@@ -320,7 +326,7 @@
                 <div class="lg:col-span-2 space-y-3  ">
                     <h1 class="font-adlam lg:text-4xl text-2xl ">Get Awesome News!</h1>
                     <p class="font-sora">Exclusive training tips, ticks, product deals and more.</p>
-                    <input class=" pl-6 lg:w-[470px] lg:h-[67px] md:w-[400px] md:h-[55px] w-[312px] h-[42px]   rounded-md bg-white" type="email" placeholder="Enter email...">
+                    <input class=" pl-6 lg:w-[470px] lg:h-[67px] md:w-[400px] md:h-[55px] w-[312px] h-[42px]  shadow-md  rounded-md bg-white" type="email" placeholder="Enter email...">
                     <br>
                     <button class="primary-color rounded-md  font-sora px-5 py-2 mb-10">Subscribe</button>
                 </div>
